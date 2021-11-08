@@ -1,0 +1,15 @@
+{
+  "name": "bittorrent-tracker-rest",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "author": "Krasimir Nedelchev <kaykayehnn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bittorrent-tracker": "^9.18.3",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node src/index.j"
+  }
+}
