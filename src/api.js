@@ -13,9 +13,9 @@ export default function createApi({ tracker, port }) {
     const torrent = tracker.torrents[req.params.infohash];
 
     const data = {
-      infoHash: torrent.infoHash,
-      seeders: torrent.complete,
-      peers: torrent.incomplete,
+      Hash: torrent.infoHash,
+      Seeders: torrent.complete,
+      Peers: torrent.incomplete,
     };
 
     res.json(data);
